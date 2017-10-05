@@ -5,6 +5,16 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>CT417.1</name>
   <description>CT417 Assignment 1</description>
+  <distributionManagement>
+        <repository>
+            <id>myMavenRepo.write</id>
+            <url>https://mymavenrepo.com/repo/8cwwrKYBTJdc746UBvPc/ </url>
+        </repository>
+        <snapshotRepository>
+            <id>myMavenRepo.write</id>
+            <url>https://mymavenrepo.com/repo/8cwwrKYBTJdc746UBvPc/ </url>
+        </snapshotRepository>
+    </distributionManagement>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
